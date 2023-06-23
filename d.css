@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); 
+
+/* universal selector */
+* {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+:root{
+    --main :  rgb(245, 245, 245);
+}
+
+body{
+    background: var(--main);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+h1, p{
+    color: black;
+}
+p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+h1{
+    font-size: 40px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+footer{
+    background: black;
+}
+footer p{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-bottom: 10px;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+
+    
+}
+.home{
+    background-image: url('image/cool-background.svg');
+    background-size: 100vw;
+    /*border-radius: 0 .5rem .5rem 0;*/
+  
+   
+}
+.page2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Expertise{
+    width: 700px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 50px;
+    
+}
+
+.skills{
+  
+    background-image: linear-gradient(45deg, blue,red);
+    height: 150px;
+    width: 150px;
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.proj{
+    width: 800px;
+    height: 300px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*gap: 10px;*/
+}
+.project2{
+    background-image: linear-gradient(45deg, rgb(92, 212, 81), rgb(70, 42, 194));
+    width: 200px;
+    height: 300px;  
+    margin-left: 30px;
+    border-radius: 1rem;
+}
+.project1, .project3{
+    width: 180px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-image: linear-gradient(45deg, blue,red);
+    border-radius: 1rem;
+}
+.page2, .page3, .page4{
+    /*background: var(--main);*/
+    background-image: linear-gradient(45deg, rgb(217, 217, 217), white);
+   
+}
