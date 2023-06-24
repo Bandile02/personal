@@ -60,7 +60,7 @@ footer p{
     
 }
 .home{
-    background-image: url('image/cool-background.svg');
+    background-image: url('cool-background.svg');
     background-size: 100vw;
     /*border-radius: 0 .5rem .5rem 0;*/
   
